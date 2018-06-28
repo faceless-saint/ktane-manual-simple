@@ -704,6 +704,15 @@ td, th {
 }
 
 /*
+ * Control color for "white" printed text
+ */
+@media print {
+    .color-white {
+        color: #CCC;
+    }
+}
+
+/*
  * Hide from both screenreaders and browsers, but only for non-print
  */
 .hide-screen {
