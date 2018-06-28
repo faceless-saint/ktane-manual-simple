@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class='no-js'><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+	<meta charset='utf-8'>
+	<link rel='icon' href='img/favicon.ico' type='image/png'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='description' content='Bomb Defusal Manual for the video game Keep Talking and Nobody Explodes'>
+	<title>KTANE v1 Simplified - Complicated Wires</title>
+	<meta name='viewport' content='initial-scale=1'> 
+	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='css/normalize.css'>
+	<link rel='stylesheet' type='text/css' href='css/main.css'>
+</head>
+<body>
+<div class='section'>
+	<div class='page complex-wires'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Simplified</span>
+			<span class='page-header-section-title'>Complicated Wires</span>
+		</div>
+		<div class='page-content'>
+			<img src='img/ComplexWireComponent.svg' class='diagram'>
+			<h2>On the Subject of Complicated Wires</h2>
+			<p class='flavour-text'>
+				These wires aren't like the others. Some have stripes! That makes them completely different. The good news is that we've found a concise set of instructions on what to do about it! Maybe too concise…
+			</p>
+
+			<ul><li>
+				Look at each wire: there is an LED above the wire and a space for a '★' symbol below the wire.
+			</li><li>
+				For <b>each</b> Wire/LED/Star combination, use the table below to decide whether or not to cut the wire.
+			</li><li>
+				Each wire may be striped with multiple colors.
+			</li></ul>
+
+			</br>
+			<div>
+				<table id='complextable'>
+					<tr><th>Wire Color<th>-<th>LED<th>★<th>LED + ★
+
+					<tr><th><span class='color-white'>None</span>
+						<td> CUT
+						<td> NO
+						<td> CUT
+						<td> Batteries > 1
+
+					<tr><th><span class='color-red'>Red</span>
+						<td> Serial # even
+						<td> Batteries > 1
+						<td> CUT
+						<td> Batteries > 1
+
+					<tr><th><span class='color-blue'>Blue</span>
+						<td> Serial # even
+						<td> Parallel port
+						<td> NO
+						<td> Parallel port
+
+					<tr><th><span class='color-red'>Red</span> + <span class='color-blue'>Blue</span>
+						<td> Serial # even
+						<td> Serial # even
+						<td> Parallel port
+						<td> NO
+				</table>
+			</div>
+			</br>
+
+			<div style='clear:both;'/>
+				<p class='appendix-reference'>
+					See Appendix B for battery identification reference.<br/>
+					See Appendix C for port identification reference.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body></html>
