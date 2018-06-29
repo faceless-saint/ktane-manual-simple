@@ -48,7 +48,7 @@ Refactored the table to be more concise.
 Wire colors are now color-coded in the text for clarity.
 
 ### Mazes
-Labeled each maze with its unique row number pairing for the circles.
+Labeled each maze with its unique column number pairing for the circles.
 
 ### Passwords
 Password options are now presented hierarchically, with descending options for each letter position.
